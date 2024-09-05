@@ -671,7 +671,7 @@ footer {
     height: auto;
   }
 }
-@media (min-width: 1281px) and (max-width: 1440px) {
+@media (min-width: 1281px) and (max-width: 1640px) {
   .logo {
     font-size: 30px;
     font-weight: bold;

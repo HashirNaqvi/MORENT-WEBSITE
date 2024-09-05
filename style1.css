@@ -318,6 +318,9 @@ input[type="text"]:focus {
   align-items: center;
   gap: 5px;
 }
+.car1 {
+  display: none;
+}
 
 .view-all {
   display: block;
@@ -666,5 +669,61 @@ footer {
     bottom: 10px;
     width: 200px;
     height: auto;
+  }
+}
+@media (min-width: 1281px) and (max-width: 1440px) {
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1a73e8;
+  }
+  .navbar-icons i {
+    color: #6c757d;
+    margin-left: 20px;
+    position: relative;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  .navbar-icons img {
+    width: 45px;
+    height: auto;
+  }
+  .promo-card {
+    width: 49%;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+    height: 230px;
+  }
+  .promo-card h2 {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  .promo-img {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 300px;
+    height: auto;
+  }
+  .promo-btn {
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+  }
+
+  .container {
+    width: 1405px;
+    margin-left: 20px;
+    height: 170px;
+  }
+
+  .popular-cars {
+    width: 1360px;
+  }
+  .car1 {
+    display: block;
   }
 }

@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Rental</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">MORENT</div>
+      <div class="search-bar">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search something here" />
+        <i class="fas fa-sliders-h"></i>
+      </div>
+      <div class="navbar-icons">
+        <i class="fas fa-heart"></i>
+        <div class="notification">
+          <i class="fas fa-bell"></i>
+          <span class="notification-dot"></span>
+        </div>
+        <i class="fas fa-cog"></i>
+        <img src="Profil.svg" alt="Profile" class="profile-img" />
+      </div>
+    </header>
+
+    <main>
+      <section class="promo-section">
+        <div class="promo-card blue">
+          <h2>The Best Platform for Car Rental</h2>
+          <p>
+            Ease of doing a car rental safely and reliably. Of course at a low
+            price.
+          </p>
+          <button class="promo-btn">Rental Car</button>
+          <img src="image 7.svg" alt="Car Image" class="promo-img" />
+        </div>
+        <div class="promo-card dark-blue">
+          <h2>Easy way to rent a car at a low price</h2>
+          <p>
+            Providing cheap car rental services and safe and comfortable
+            facilities.
+          </p>
+          <button class="promo-btn">Rental Car</button>
+          <img src="image 8.svg" alt="Car Image" class="promo-img" />
+        </div>
+      </section>
+
+      <!-- pick up section -->
+      <div class="container">
+        <!-- Pick-Up Section -->
+        <div class="section">
+          <label>
+            <input type="radio" name="type" checked />
+            Pick-Up
+          </label>
+          <div class="dropdown-container">
+            <div class="dropdown">
+              <select>
+                <option>Select your city</option>
+                <option>New York</option>
+                <option>Los Angeles</option>
+                <option>Chicago</option>
+                <option>Houston</option>
+              </select>
+            </div>
+            <div class="dropdown">
+              <input type="text" placeholder="Select your date" />
+            </div>
+            <div class="dropdown">
+              <input type="text" placeholder="Select your time" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Switch Button -->
+        <a href=""><img src="Switch.svg" alt="" class="Switch" /> </a>
+
+        <!-- Drop-Off Section -->
+        <div class="section">
+          <label>
+            <input type="radio" name="type" />
+            Drop-Off
+          </label>
+          <div class="dropdown-container">
+            <div class="dropdown">
+              <select>
+                <option>Select your city</option>
+                <option>New York</option>
+                <option>Los Angeles</option>
+                <option>Chicago</option>
+                <option>Houston</option>
+              </select>
+            </div>
+            <div class="dropdown">
+              <input type="text" placeholder="Select your date" />
+            </div>
+            <div class="dropdown">
+              <input type="text" placeholder="Select your time" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- pick up section ends here -->
+
+      <!-- popular-cars starts here -->
+      <section class="popular-cars">
+        <div class="popluar">
+          <h3>Popular Car</h3>
+          <a href="#" class="view-all">View All</a>
+        </div>
+
+        <div class="car-list">
+          <div class="car-card">
+            <h4>Koenigsegg</h4>
+            <p>Sport</p>
+            <img src="koenigsegg.svg" alt="Koenigsegg" class="car1" />
+            <div class="car-details">
+              <span><i class="fas fa-gas-pump"></i> 90L</span>
+              <span><i class="fas fa-cogs"></i> Manual</span>
+              <span><i class="fas fa-user-friends"></i> 2 People</span>
+            </div>
+            <p class="price">$99.00/day</p>
+            <button class="rent-btn">Rent Now</button>
+            <span class="wishlist"><i class="fas fa-heart"></i></span>
+          </div>
+
+          <div class="car-card">
+            <h4>Nissan GT-R</h4>
+            <p>Sport</p>
+            <img src="Nissan GT-R.svg" alt="Nissan GT-R" class="car1" />
+            <div class="car-details">
+              <span><i class="fas fa-gas-pump"></i> 80L</span>
+              <span><i class="fas fa-cogs"></i> Manual</span>
+              <span><i class="fas fa-user-friends"></i> 2 People</span>
+            </div>
+            <p class="price">$80.00/day</p>
+            <p class="original-price">$100.00</p>
+            <button class="rent-btn">Rent Now</button>
+            <span class="wishlist"><i class="far fa-heart"></i></span>
+          </div>
+
+          <div class="car-card">
+            <h4>Rolls-Royce</h4>
+            <p>Sedan</p>
+            <img src="rolls royce.svg" alt="Rolls-Royce" class="car1" />
+            <div class="car-details">
+              <span><i class="fas fa-gas-pump"></i> 70L</span>
+              <span><i class="fas fa-cogs"></i> Manual</span>
+              <span><i class="fas fa-user-friends"></i> 4 People</span>
+            </div>
+            <p class="price">$96.00/day</p>
+            <button class="rent-btn">Rent Now</button>
+            <span class="wishlist"><i class="fas fa-heart"></i></span>
+          </div>
+        </div>
+      </section>
+      <!-- popular-cars ends here -->
+
+      <!-- Recomendation-cars starts here -->
+      <section class="popular-cars">
+        <div class="popluar">
+          <h3>Recomendation Car</h3>
+        </div>
+
+        <div class="car-list">
+          <div class="car-card">
+            <h4>Koenigsegg</h4>
+            <p>Sport</p>
+            <img src="koenigsegg.svg" alt="Koenigsegg" class="car1" />
+            <div class="car-details">
+              <span><i class="fas fa-gas-pump"></i> 90L</span>
+              <span><i class="fas fa-cogs"></i> Manual</span>
+              <span><i class="fas fa-user-friends"></i> 2 People</span>
+            </div>
+            <p class="price">$99.00/day</p>
+            <button class="rent-btn">Rent Now</button>
+            <span class="wishlist"><i class="fas fa-heart"></i></span>
+          </div>
+
+          <div class="car-card">
+            <h4>Nissan GT-R</h4>
+            <p>Sport</p>
+            <img src="Nissan GT-R.svg" alt="Nissan GT-R" class="car1" />
+            <div class="car-details">
+              <span><i class="fas fa-gas-pump"></i> 80L</span>
+              <span><i class="fas fa-cogs"></i> Manual</span>
+              <span><i class="fas fa-user-friends"></i> 2 People</span>
+            </div>
+            <p class="price">$80.00/day</p>
+            <p class="original-price">$100.00</p>
+            <button class="rent-btn">Rent Now</button>
+            <span class="wishlist"><i class="far fa-heart"></i></span>
+          </div>
+
+          <div class="car-card">
+            <h4>Rolls-Royce</h4>
+            <p>Sedan</p>
+            <img src="rolls royce.svg" alt="Rolls-Royce" class="car1" />
+            <div class="car-details">
+              <span><i class="fas fa-gas-pump"></i> 70L</span>
+              <span><i class="fas fa-cogs"></i> Manual</span>
+              <span><i class="fas fa-user-friends"></i> 4 People</span>
+            </div>
+            <p class="price">$96.00/day</p>
+            <button class="rent-btn">Rent Now</button>
+            <span class="wishlist"><i class="fas fa-heart"></i></span>
+          </div>
+        </div>
+      </section>
+      <!-- popular-cars ends here -->
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <h2>MORENT</h2>
+          <p>
+            Our vision is to provide convenience and <br />
+            help increase your sales business.
+          </p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3>About</h3>
+            <ul>
+              <li><a href="#">How it works</a></li>
+              <li><a href="#">Featured</a></li>
+              <li><a href="#">Partnership</a></li>
+              <li><a href="#">Business Relation</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Community</h3>
+            <ul>
+              <li><a href="#">Events</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Podcast</a></li>
+              <li><a href="#">Invite a friend</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Socials</h3>
+            <ul>
+              <li><a href="#">Discord</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy;2022 MORENT. All rights reserved</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy & Policy</a>
+          <a href="#">Terms & Condition</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
